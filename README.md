@@ -2,6 +2,10 @@
 ## 題目名稱
 (Group 19) Blentify
 
+## 連結
+GitHub repo：https://github.com/heyhummingbird/blentify
+Demo影片：https://youtu.be/Mj1wWkZ2xJo
+
 ## 一句話描述這個服務在做什麼
 這是一個結合spotify的漸層色遊戲網站。可以一邊收聽 Spotify上的歌曲，一邊以專輯封面作為色票基底玩色彩遊戲。
 
