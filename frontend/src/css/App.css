@@ -1,0 +1,217 @@
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small_container {
+  margin: 0px 10px;
+}
+
+span[onclick] {
+  cursor: pointer;
+}
+
+button#search {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Logo {
+  width: 100vw;
+  height: 30vw;
+  margin: auto;
+  color: white;
+  font-size: 80px;
+}
+
+.Selector {
+  width: 100vw;
+  height: 15vw;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+.Message {
+  width: 100vw;
+  height: 30vh;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+.Game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.GameTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Candidate {
+  display: table;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0px;
+
+}
+
+.Ground {
+  display: table;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.GameBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Exit {
+  width: 25vw;
+  height: inherit;
+}
+
+.Time {
+  margin: 0px 10px;
+  height: inherit;
+  display: table;
+  color: white;
+  font-size: 30px;
+}
+
+.Timer {
+  color: white;
+  margin: auto;
+  height: inherit;
+  width: inherit;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.Ans {
+  width: 25vw;
+  height: inherit;
+}
+
+.Save {
+  width: 25vw;
+  height: inherit;
+}
+
+.Load {
+  width: 25vw;
+  height: inherit;
+}
+
+.Prev {
+  width: 25vw;
+  height: inherit;
+}
+
+.Help {
+  width: 25vw;
+  height: inherit;
+}
+
+.Tile {
+  margin: 0px 0px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 70px;
+  width: 70px;
+  border: white 2px solid;
+}
+
+.Tile:hover {
+  border: black 2px solid;
+}
+
+
+.Tile[status='Space'] {
+  background-color: #282828;
+}
+
+.Icon {
+  background-color: dimgrey;
+  color: white;
+  height: inherit;
+  width: inherit;
+  font-size: 30px;
+}
+
+.Icon:hover {
+  font-size: 40px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
